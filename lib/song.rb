@@ -23,7 +23,7 @@ class Song
   end
    
    def self.genre
-     
+     @@genres.uniq
    end
   
   
