@@ -9,8 +9,8 @@ class Song
   
   end
   
-  def name 
-    
+  def name(name) 
+    song.name = name 
   end
   
 end
