@@ -36,7 +36,7 @@ class Song
      @@artists.each do |artist|
        if artist_count |artist|
           artist_count |artist| += 1
-        elsif
+        else
           artist_count |artist| = 1
         end
         artist_count
